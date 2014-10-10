@@ -1,0 +1,27 @@
+/* container.css */
+
+.container
+{
+    width: 940px;
+}
+
+
+.container
+{
+    margin-right: auto;
+    margin-left: auto;
+    *zoom: 1;
+}
+
+.container:before,
+.container:after
+{
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.container:after
+{
+    clear: both;
+}
