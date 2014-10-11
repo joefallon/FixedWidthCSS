@@ -2,11 +2,542 @@
 <html>
 <head lang="en">
     <meta charset="utf-8">
-    <title>Template</title>
+    <title>Typography</title>
     <meta name="description" content="">
     <meta name="author" content="">
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/typography.css" rel="stylesheet">
+
+    <style>
+        .section-name
+        {
+            border-bottom: 1px solid #808080;
+            padding-bottom: 10px;
+            padding-top: 25px;
+            margin-bottom: 10px;
+        }
+    </style>
+
+    <script src="js/html5shiv.js"></script>
 </head>
 <body>
+<div class="container">
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Headings</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h1>h1. Heading 1</h1>
+            <h2>h2. Heading 2</h2>
+            <h3>h3. Heading 3</h3>
+            <h4>h4. Heading 4</h4>
+            <h5>h5. Heading 5</h5>
+            <h6>h6. Heading 6</h6>
+        </div>
+    </div>
 
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Small Headings</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h1>
+                <small>Small Heading 1</small>
+            </h1>
+            <h2>
+                <small>Small Heading 2</small>
+            </h2>
+            <h3>
+                <small>Small Heading 3</small>
+            </h3>
+            <h4>
+                <small>Small Heading 4</small>
+            </h4>
+            <h5>
+                <small>Small Heading 5</small>
+            </h5>
+            <h6>
+                <small>Small Heading 6</small>
+            </h6>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Body Copy</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p>
+                Nullam quis risus eget urna mollis ornare vel eu leo. Cum
+                sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+                vehicula. Cum sociis natoque penatibus et magnis dis
+                parturient montes, nascetur ridiculus mus. Donec
+                ullamcorper nulla non metus auctor fringilla. Duis mollis,
+                est non commodo luctus, nisi erat porttitor ligula, eget
+                lacinia odio sem nec elit. Donec ullamcorper nulla non
+                metus auctor fringilla. Maecenas sed diam eget risus varius
+                blandit sit amet non magna. Donec id elit non mi porta
+                gravida at eget metus. Duis mollis, est non commodo luctus,
+                nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Lead Body Copy</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p class="lead">
+                Nullam quis risus eget urna mollis ornare vel eu leo. Cum
+                sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+                vehicula. Cum sociis natoque penatibus et magnis dis
+                parturient montes, nascetur ridiculus mus. Donec
+                ullamcorper nulla non metus auctor fringilla. Duis mollis,
+                est non commodo luctus, nisi erat porttitor ligula, eget
+                lacinia odio sem nec elit. Donec ullamcorper nulla non
+                metus auctor fringilla. Maecenas sed diam eget risus varius
+                blandit sit amet non magna. Donec id elit non mi porta
+                gravida at eget metus. Duis mollis, est non commodo luctus,
+                nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Fine Print</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p>
+                <small>This line of text is meant to be treated as fine print.</small>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Bold</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p>
+                The following snippet of text is <strong>rendered as bold
+                text</strong>.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Italics</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p>
+                The following snippet of text is <em>rendered as italicized text</em>.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Text Alignment</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p class="text-left">Left aligned text.</p>
+            <p class="text-center">Center aligned text.</p>
+            <p class="text-right">Right aligned text.</p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Colored Emphasis</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p class="muted">(.muted) Lorem ipsum dolor sit amet.</p>
+            <p class="text-warning">(.text-warning) Lorem ipsum dolor sit amet.</p>
+            <p class="text-error">(.text-error) Lorem ipsum dolor sit amet.</p>
+            <p class="text-info">(.text-info) Lorem ipsum dolor sit amet.</p>
+            <p class="text-success">(.text-success) Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Abbreviations</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p>
+                An abbreviation of the word attribute is
+                <abbr title="attribute">attr</abbr>.
+            </p>
+            <p>
+                Add .initialism to an abbreviation for a slightly smaller font-size
+                (e.g.
+                <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
+                is the best thing since sliced bread).
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Addresses</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <address>
+                <strong>John Doe</strong><br>
+                1234 Main Street, #711<br>
+                Anytown, CA 90210<br>
+                <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                <abbr title="Fax">F:</abbr> (123) 456-7890<br>
+                <abbr title="Mobile/Cell">M:</abbr> (123) 456-7890
+            </address>
+
+            <address>
+                <strong>Full Name</strong><br>
+                <a href="mailto:#">first.last@example.com</a>
+            </address>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Blockquote</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <blockquote>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer posuere erat a ante.
+                </p>
+            </blockquote>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Blockquote w/ Named Source (Left Align)</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p>Add <code>&lt;small&gt;</code> tag for identifying the
+                source. Wrap the name of the source work in
+                <code>&lt;cite&gt;</code>.</p>
+
+            <blockquote>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Integer posuere erat a ante.
+                </p>
+                <small>
+                    Someone famous
+                    <cite title="Source Title">Source Title</cite>
+                </small>
+            </blockquote>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Blockquote w/ Named Source (Right Align)</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <blockquote class="pull-right">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Integer posuere erat a ante.
+                </p>
+                <small>
+                    Someone famous
+                    <cite title="Source Title">Source Title</cite>
+                </small>
+            </blockquote>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Unordered List</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Integer molestie lorem at massa</li>
+                <li>Facilisis in pretium nisl aliquet</li>
+                <li>Nulla volutpat aliquam velit
+                    <ul>
+                        <li>Phasellus iaculis neque</li>
+                        <li>Purus sodales ultricies</li>
+                        <li>Vestibulum laoreet porttitor sem</li>
+                        <li>Ac tristique libero volutpat at</li>
+                    </ul>
+                </li>
+                <li>Faucibus porta lacus fringilla vel</li>
+                <li>Aenean sit amet erat nunc</li>
+                <li>Eget porttitor lorem</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Ordered List</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <ol>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Integer molestie lorem at massa</li>
+                <li>Facilisis in pretium nisl aliquet</li>
+                <li>Nulla volutpat aliquam velit
+                    <ol style="list-style: lower-alpha;">
+                        <li>Phasellus iaculis neque</li>
+                        <li>Purus sodales ultricies</li>
+                        <li>Vestibulum laoreet porttitor sem</li>
+                        <li>Ac tristique libero volutpat at</li>
+                    </ol>
+                </li>
+                <li>Faucibus porta lacus fringilla vel</li>
+                <li>Aenean sit amet erat nunc</li>
+                <li>Eget porttitor lorem</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Unstyled List</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <ul class="unstyled">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Integer molestie lorem at massa</li>
+                <li>Facilisis in pretium nisl aliquet</li>
+                <li>Nulla volutpat aliquam velit
+                    <ul>
+                        <li>Phasellus iaculis neque</li>
+                        <li>Purus sodales ultricies</li>
+                        <li>Vestibulum laoreet porttitor sem</li>
+                        <li>Ac tristique libero volutpat at</li>
+                    </ul>
+                </li>
+                <li>Faucibus porta lacus fringilla vel</li>
+                <li>Aenean sit amet erat nunc</li>
+                <li>Eget porttitor lorem</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Inline List</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <ul class="inline">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Definition List</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <dl>
+                <dt>Description lists</dt>
+                <dd>A description list is perfect for defining terms.</dd>
+
+                <dt>Euismod</dt>
+                <dd>Vestibulum id ligula porta felis euismod semper eget
+                    lacinia odio sem nec elit.</dd>
+                <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+
+                <dt>Malesuada porta</dt>
+                <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+            </dl>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Horizontal Definition List</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <dl class="dl-horizontal">
+                <dt>Description lists</dt>
+                <dd>A description list is perfect for defining terms.</dd>
+
+                <dt>Euismod</dt>
+                <dd>Vestibulum id ligula porta felis euismod semper eget
+                    lacinia odio sem nec elit.</dd>
+                <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+
+                <dt>Malesuada porta</dt>
+                <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+
+                <dt>Felis euismod semper eget lacinia</dt>
+                <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+            </dl>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Inline Code</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Preformatted Block</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+<pre>
+&lt;p&gt;Sample text here...&lt;/p&gt;
+</pre>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Preformatted Block /w Code</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+<pre>
+&lt;p&gt;Sample <code>code here</code>...&lt;/p&gt;
+</pre>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Scrollable Preformatted Block</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+<pre class="pre-scrollable">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+molestie leo sit amet tortor lacinia lacinia. Cras eu mollis
+mi. Sed consequat sem arcu, maximus dignissim nisl commodo
+tincidunt. Vivamus sed scelerisque augue. Aliquam et sapien
+metus. Cras aliquam est eu sem efficitur, in cursus leo pretium.
+Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+molestie leo sit amet tortor lacinia lacinia. Cras eu mollis
+mi. Sed consequat sem arcu, maximus dignissim nisl commodo
+tincidunt. Vivamus sed scelerisque augue. Aliquam et sapien
+metus. Cras aliquam est eu sem efficitur, in cursus leo pretium.
+Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+molestie leo sit amet tortor lacinia lacinia. Cras eu mollis
+mi. Sed consequat sem arcu, maximus dignissim nisl commodo
+tincidunt. Vivamus sed scelerisque augue. Aliquam et sapien
+metus. Cras aliquam est eu sem efficitur, in cursus leo pretium.
+Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus.
+</pre>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Horizontal Rule</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <p>Example paragraph followed by a horizontal rule.</p>
+            <hr>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>

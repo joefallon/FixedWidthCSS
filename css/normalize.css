@@ -1,7 +1,18 @@
-/* normaize.css */
+/****************************************************************************
+ * normaize.css
+ *
+ * Requires:
+ *  None
+ *
+ ****************************************************************************/
 
 .clearfix
 {
+    /*
+     * For IE6/7, zoom: 1 provides hasLayout. Having "layout"
+     * is a prerequisite for display: inline-block to always
+     * work.
+     */
     *zoom: 1;
 }
 
@@ -20,21 +31,19 @@
 
 .hide-text
 {
+    /*
+     * This is a shorthand property that zeros out the font size
+     * and line-height. The a value acts as a very short
+     * font-family. The CSS validator complains that using 0/0
+     * in the shorthand font property is not valid, but every
+     * browser accepts it and this appears to be an error in the
+     * validator.
+     */
     font: 0/0 a;
     color: transparent;
     text-shadow: none;
     background-color: transparent;
     border: 0;
-}
-
-.input-block-level
-{
-    display: block;
-    width: 100%;
-    min-height: 30px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 article,
@@ -189,7 +198,7 @@ body
 {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     color: #333333;
     background-color: #ffffff;
