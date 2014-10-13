@@ -1,5 +1,5 @@
 /****************************************************************************
- * normaize.css
+ * tables.css
  *
  * Requires:
  *  normalize.css
@@ -23,7 +23,16 @@ table
     margin-bottom: 20px;
 }
 
-.table th,
+.table th
+{
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    border-top: 1px solid #dddddd;
+    border-bottom: 2px solid #ddd;
+    vertical-align: bottom;
+}
+
 .table td
 {
     padding: 8px;
@@ -32,6 +41,7 @@ table
     vertical-align: top;
     border-top: 1px solid #dddddd;
 }
+
 
 .table th
 {

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/typography.css" rel="stylesheet">
+    <link href="css/forms.css" rel="stylesheet">
+
+    <style>
+        .section-name
+        {
+            border-bottom: 1px solid #808080;
+            padding-bottom: 10px;
+            padding-top: 25px;
+            margin-bottom: 10px;
+        }
+    </style>
+
+    <script src="js/html5shiv.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Basic Form</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <form>
+                <fieldset>
+                    <legend>Legend</legend>
+                    <div>
+                        <label>Email</label>
+                        <input type="text" placeholder="Enter your email address">
+                    </div>
+
+                    <div>
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter your password">
+                    </div>
+
+                    <div>
+                        <label class="checkbox">
+                            <input type="checkbox" name="cb" value="1"> Check me out 1
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="cb" value="2"> Check me out 2
+                        </label>
+                    </div>
+
+
+                    <div><textarea rows="3">This is a text area.</textarea></div>
+                    <button type="submit" class="btn">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Form w/ Small Legend</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <form>
+                <fieldset>
+                    <legend><small>Small Legend</small></legend>
+                    <div>
+                        <label>Email</label>
+                        <input type="text" placeholder="Enter your email address">
+                    </div>
+
+                    <div>
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter your password">
+                    </div>
+
+                    <div>
+                        <label class="checkbox">
+                            <input type="checkbox" name="cb" value="1"> Check me out 1
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="cb" value="2"> Check me out 2
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>File Input</label>
+                        <input type="file">
+                    </div>
+
+                    <div>
+                        <textarea rows="3">This is a text area.</textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" name="submit" value="Submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Form Controls</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h4>Text Input</h4>
+            <input type="text" placeholder="type=text">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h4>Text Area</h4>
+            <textarea rows="3">This is an example text area.</textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h4>Radio Buttons and Checkboxes</h4>
+            <label class="checkbox">
+                <input type="checkbox" value="">
+                This is a checkbox
+            </label>
+
+            <label class="radio">
+                <input type="radio" name="radios" id="radios1" value="option1" checked>
+                Option one is this
+            </label>
+            <label class="radio">
+                <input type="radio" name="radios" id="radios2" value="option2">
+                Option two is this
+            </label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h4>Select</h4>
+            <select>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+                <option>Option 5</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h4>Multiple Select</h4>
+            <select multiple="multiple">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+                <option>Option 5</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Form Controls</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h4>Text Input</h4>
+            <input type="text" placeholder="uneditable" disabled="disabled">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h4>Text Area</h4>
+            <textarea rows="3" disabled="disabled">This is an uneditable text area.</textarea>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">BTN</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <h4></h4>
+            <form>
+                <button type="submit" class="btn">Submit</button>
+                <button type="file" class="btn">File</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
