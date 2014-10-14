@@ -8,6 +8,8 @@
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
     <link href="css/forms.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
+    <link href="css/file-browser.css" rel="stylesheet">
 
     <style>
         .section-name
@@ -55,7 +57,7 @@
 
 
                     <div><textarea rows="3">This is a text area.</textarea></div>
-                    <button type="submit" class="btn">Submit</button>
+                    <button type="submit" class="btn btn-default">Submit</button>
                 </fieldset>
             </form>
         </div>
@@ -91,18 +93,19 @@
                         </label>
                     </div>
 
-                    <div>
-                        <label>File Input</label>
-                        <input type="file">
+                    <div class="file-upload">
+                    <span class="btn btn-primary btn-file">
+                        Browse 2 <input type="file" id="upload2">
+                    </span>
+                        <span id="upload2-label"></span>
                     </div>
 
                     <div>
                         <textarea rows="3">This is a text area.</textarea>
                     </div>
 
-                    <div>
-                        <input type="submit" name="submit" value="Submit">
-                    </div>
+                    <button type="submit" class="btn btn-default"
+                            name="" value="">Submit</button>
                 </fieldset>
             </form>
         </div>
@@ -184,28 +187,70 @@
     <div class="row">
         <div class="span12">
             <h4>Text Area</h4>
-            <textarea rows="3" disabled="disabled">This is an uneditable text area.</textarea>
+            <textarea rows="3"
+                      disabled="disabled">This is an uneditable text area.</textarea>
         </div>
     </div>
-
-
 
 
     <div class="row">
         <div class="span12">
-            <h2 class="section-name">BTN</h2>
+            <h2 class="section-name">Block Level Input</h2>
         </div>
     </div>
     <div class="row">
         <div class="span12">
-            <h4></h4>
-            <form>
-                <button type="submit" class="btn">Submit</button>
-                <button type="file" class="btn">File</button>
-            </form>
-
+            <input type="text" class="input-block-level"
+                placeholder=".input-block-level">
         </div>
     </div>
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Input Sizing - Relative</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <input type="text" class="input-mini" placeholder=".input-mini"><br>
+            <input type="text" class="input-small" placeholder=".input-small"><br>
+            <input type="text" class="input-medium" placeholder=".input-medium"><br>
+            <input type="text" class="input-large" placeholder=".input-large"><br>
+            <input type="text" class="input-xlarge" placeholder=".input-xlarge"><br>
+            <input type="text" class="input-xxlarge" placeholder=".input-xxlarge"><br>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Inline Help</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <input type="text"><span class="help-inline">Inline help text</span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <h2 class="section-name">Block Help</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <input type="text"><span class="help-block">A longer block of help
+            text that breaks onto a new line and may extend beyond one line.</span>
+        </div>
+    </div>
+
+    <!--
+    The following JavaScript is required due to the usage of the
+    file browser button.
+    -->
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/file-browser.js"></script>
 </div>
 </body>
 </html>

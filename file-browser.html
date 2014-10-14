@@ -18,6 +18,11 @@
             padding-top:    25px;
             margin-bottom:  10px;
         }
+
+        .file-upload
+        {
+            padding-bottom: 10px;
+        }
     </style>
 
     <script src="js/html5shiv.js"></script>
@@ -32,7 +37,18 @@
     <div class="row">
         <div class="span12">
             <form>
-                <span class="btn btn-default btn-file">Browse <input type="file"></span>
+                <div class="file-upload">
+                    <span class="btn btn-default btn-file">
+                        Browse 1 <input type="file" id="upload1">
+                    </span>
+                    <span id="upload1-label"></span>
+                </div>
+                <div class="file-upload">
+                    <span class="btn btn-primary btn-file">
+                        Browse 2 <input type="file" id="upload2">
+                    </span>
+                    <span id="upload2-label"></span>
+                </div>
             </form>
         </div>
     </div>
