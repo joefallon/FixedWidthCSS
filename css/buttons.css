@@ -12,78 +12,65 @@
 button
 {
     font-family: inherit;
-    overflow:    visible;
+    overflow: visible;
 }
 
 .btn
 {
-    display:               inline-block;
-    padding:               6px 12px;
-    margin-bottom:         0;
-    font-size:             13px;
-    font-weight:           normal;
-    line-height:           1.42857143;
-    text-align:            center;
-    white-space:           nowrap;
-    vertical-align:        middle;
-    cursor:                pointer;
-    -webkit-user-select:   none;
-    -moz-user-select:      none;
-    -ms-user-select:       none;
-    user-select:           none;
-    background-image:      none;
-    border:                1px solid transparent;
-    -webkit-border-radius: 4px;
-    -moz-border-radius:    4px;
-    border-radius:         4px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus
 {
-    outline:        thin dotted;
-    outline:        5px auto -webkit-focus-ring-color;
+    outline: thin dotted;
     outline-offset: -2px;
 }
 
 .btn:hover,
 .btn:focus
 {
-    color:           #333333;
+    color: #333333;
     text-decoration: none;
 }
 
 .btn:active,
 .btn.active
 {
-    background-image:   none;
-    outline:            0;
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
-    -moz-box-shadow:    inset 0 3px 5px rgba(0, 0, 0, .125);
-    box-shadow:         inset 0 3px 5px rgba(0, 0, 0, .125);
+    background-image: none;
+    outline: 0;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn
 {
-    pointer-events:     none;
-    cursor:             not-allowed;
-    filter:             alpha(opacity=65);
-    -webkit-box-shadow: none;
-    -moz-box-shadow:    none;
-    box-shadow:         none;
-    opacity:            .65;
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: .65;
 }
 
 /* default button */
 
 .btn-default
 {
-    color:            #333333;
+    color: #333333;
     background-color: #ffffff;
-    border-color:     #cccccc;
+    border-color: #cccccc;
 }
 
 .btn-default:hover,
@@ -91,9 +78,9 @@ fieldset[disabled] .btn
 .btn-default:active,
 .btn-default.active
 {
-    color:            #333333;
+    color: #333333;
     background-color: #e6e6e6;
-    border-color:     #adadad;
+    border-color: #adadad;
 }
 
 .btn-default:active,
@@ -114,16 +101,16 @@ fieldset[disabled] .btn
 .btn-default[disabled].active
 {
     background-color: #ffffff;
-    border-color:     #cccccc;
+    border-color: #cccccc;
 }
 
 /* primary button */
 
 .btn-primary
 {
-    color:            #ffffff;
+    color: #ffffff;
     background-color: #428bca;
-    border-color:     #357ebd;
+    border-color: #357ebd;
 }
 
 .btn-primary:hover,
@@ -131,9 +118,9 @@ fieldset[disabled] .btn
 .btn-primary:active,
 .btn-primary.active
 {
-    color:            #ffffff;
+    color: #ffffff;
     background-color: #3071a9;
-    border-color:     #285e8e;
+    border-color: #285e8e;
 }
 
 .btn-primary:active,
@@ -154,16 +141,16 @@ fieldset[disabled] .btn
 .btn-primary[disabled].active
 {
     background-color: #428bca;
-    border-color:     #357ebd;
+    border-color: #357ebd;
 }
 
 /* success button */
 
 .btn-success
 {
-    color:            #ffffff;
+    color: #ffffff;
     background-color: #5cb85c;
-    border-color:     #4cae4c;
+    border-color: #4cae4c;
 }
 
 .btn-success:hover,
@@ -171,9 +158,9 @@ fieldset[disabled] .btn
 .btn-success:active,
 .btn-success.active
 {
-    color:            #ffffff;
+    color: #ffffff;
     background-color: #449d44;
-    border-color:     #398439;
+    border-color: #398439;
 }
 
 .btn-success:active,
@@ -194,16 +181,16 @@ fieldset[disabled] .btn
 .btn-success[disabled].active
 {
     background-color: #5cb85c;
-    border-color:     #4cae4c;
+    border-color: #4cae4c;
 }
 
 /* info button */
 
 .btn-info
 {
-    color:            #ffffff;
+    color: #ffffff;
     background-color: #5bc0de;
-    border-color:     #46b8da;
+    border-color: #46b8da;
 }
 
 .btn-info:hover,
@@ -211,9 +198,9 @@ fieldset[disabled] .btn
 .btn-info:active,
 .btn-info.active
 {
-    color:            #ffffff;
+    color: #ffffff;
     background-color: #31b0d5;
-    border-color:     #269abc;
+    border-color: #269abc;
 }
 
 .btn-info:active,
@@ -234,16 +221,16 @@ fieldset[disabled] .btn
 .btn-info[disabled].active
 {
     background-color: #5bc0de;
-    border-color:     #46b8da;
+    border-color: #46b8da;
 }
 
 /* Warning Button */
 
 .btn-warning
 {
-    color:            #ffffff;
+    color: #ffffff;
     background-color: #f0ad4e;
-    border-color:     #eea236;
+    border-color: #eea236;
 }
 
 .btn-warning:hover,
@@ -251,9 +238,9 @@ fieldset[disabled] .btn
 .btn-warning:active,
 .btn-warning.active
 {
-    color:            #ffffff;
+    color: #ffffff;
     background-color: #ec971f;
-    border-color:     #d58512;
+    border-color: #d58512;
 }
 
 .btn-warning:active,
@@ -274,16 +261,16 @@ fieldset[disabled] .btn
 .btn-warning[disabled].active
 {
     background-color: #f0ad4e;
-    border-color:     #eea236;
+    border-color: #eea236;
 }
 
 /* Danger Button */
 
 .btn-danger
 {
-    color:            #ffffff;
+    color: #ffffff;
     background-color: #d9534f;
-    border-color:     #d43f3a;
+    border-color: #d43f3a;
 }
 
 .btn-danger:hover,
@@ -291,9 +278,9 @@ fieldset[disabled] .btn
 .btn-danger:active,
 .btn-danger.active
 {
-    color:            #ffffff;
+    color: #ffffff;
     background-color: #c9302c;
-    border-color:     #ac2925;
+    border-color: #ac2925;
 }
 
 .btn-danger:active,
@@ -314,29 +301,27 @@ fieldset[disabled] .btn
 .btn-danger[disabled].active
 {
     background-color: #d9534f;
-    border-color:     #d43f3a;
+    border-color: #d43f3a;
 }
 
 /* Link Button */
 
 .btn-link
 {
-    font-weight:           normal;
-    color:                 #428bca;
-    cursor:                pointer;
+    font-weight: normal;
+    color: #428bca;
+    cursor: pointer;
     -webkit-border-radius: 0;
-    -moz-border-radius:    0;
-    border-radius:         0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
 
 .btn-link,
 .btn-link:active,
 .btn-link[disabled]
 {
-    background-color:   transparent;
-    -webkit-box-shadow: none;
-    -moz-box-shadow:    none;
-    box-shadow:         none;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 .btn-link,
@@ -350,15 +335,15 @@ fieldset[disabled] .btn
 .btn-link:hover,
 .btn-link:focus
 {
-    color:            #2a6496;
-    text-decoration:  underline;
+    color: #2a6496;
+    text-decoration: underline;
     background-color: transparent;
 }
 
 .btn-link[disabled]:hover,
 .btn-link[disabled]:focus
 {
-    color:           #777777;
+    color: #777777;
     text-decoration: none;
 }
 
@@ -366,36 +351,36 @@ fieldset[disabled] .btn
 
 .btn-lg
 {
-    padding:               10px 16px;
-    font-size:             18px;
-    line-height:           1.33;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
     -webkit-border-radius: 6px;
-    -moz-border-radius:    6px;
-    border-radius:         6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 /* Small Button */
 
 .btn-sm
 {
-    padding:               5px 10px;
-    font-size:             12px;
-    line-height:           1.5;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
     -webkit-border-radius: 3px;
-    -moz-border-radius:    3px;
-    border-radius:         3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 /* Extra-Small Button */
 
 .btn-xs
 {
-    padding:               1px 5px;
-    font-size:             12px;
-    line-height:           1.5;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
     -webkit-border-radius: 3px;
-    -moz-border-radius:    3px;
-    border-radius:         3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 /* Block Level Button */
@@ -403,5 +388,5 @@ fieldset[disabled] .btn
 .btn-block
 {
     display: block;
-    width:   100%;
+    width: 100%;
 }
