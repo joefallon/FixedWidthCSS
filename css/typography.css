@@ -347,11 +347,9 @@ ol.inline
 ul.inline > li,
 ol.inline > li
 {
-    display: inline-block;
-    *display: inline;
+    display: inline;
     padding-right: 5px;
     padding-left: 5px;
-    *zoom: 1;
 }
 
 /* definition list */
@@ -378,11 +376,6 @@ dd
 }
 
 /* horizontal definition list */
-
-.dl-horizontal
-{
-    *zoom: 1;
-}
 
 .dl-horizontal:before,
 .dl-horizontal:after
@@ -419,8 +412,6 @@ code
 {
     font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
     font-size: 12px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     padding: 2px 4px;
     color: #dd1144;
@@ -445,8 +436,6 @@ pre
     white-space: pre-wrap;
     background-color: #f5f5f5;
     border: 1px solid #cccccc;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
 }
 
@@ -477,12 +466,6 @@ hr
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #ffffff;
 }
-
-
-
-
-/* other */
-
 
 
 
