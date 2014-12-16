@@ -1,10 +1,11 @@
 /****************************************************************************
- * normaize.css
+ * normalize.css
  *
  * Requires:
  *  None
  *
  ****************************************************************************/
+
 /*
  * http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
@@ -26,7 +27,6 @@ html
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-
 html
 {
     font-family: sans-serif; /* 1 */
@@ -37,11 +37,11 @@ html
 /**
  * Remove default margin.
  */
-
 body
 {
     margin: 0;
 }
+
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -106,6 +106,7 @@ template
     display: none;
 }
 
+
 /* Links
    ========================================================================== */
 
@@ -127,6 +128,7 @@ a:hover
 {
     outline: 0;
 }
+
 
 /* Text-level semantics
    ========================================================================== */
@@ -212,6 +214,7 @@ sub
     bottom: -0.25em;
 }
 
+
 /* Embedded content
    ========================================================================== */
 
@@ -232,6 +235,7 @@ svg:not(:root)
 {
     overflow: hidden;
 }
+
 
 /* Grouping content
    ========================================================================== */
@@ -266,6 +270,7 @@ samp
     font-family: monospace, monospace;
     font-size: 1em;
 }
+
 
 /* Forms
    ========================================================================== */
@@ -454,6 +459,7 @@ optgroup
     font-weight: bold;
 }
 
+
 /* Tables
    ========================================================================== */
 
@@ -472,9 +478,6 @@ th
 {
     padding: 0;
 }
-
-
-
 
 /*
  * Clearfix
