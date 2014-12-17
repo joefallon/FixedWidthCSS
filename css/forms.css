@@ -5,18 +5,14 @@
  *  normalize.css
  *  typography.css
  *  buttons.css
- *  file-browser.css
  *
  ****************************************************************************/
 
-/* form */
 
 form
 {
     margin: 0 0 20px;
 }
-
-/* fieldset */
 
 fieldset
 {
@@ -24,8 +20,6 @@ fieldset
     margin: 0;
     border: 0;
 }
-
-/* legend */
 
 legend
 {
@@ -46,8 +40,6 @@ legend small
     color: #999999;
 }
 
-/* label */
-
 label
 {
     font-size: 13px;
@@ -57,8 +49,6 @@ label
     margin-bottom: 5px;
     max-width: 100%;
 }
-
-/* input */
 
 input[type="text"],
 input[type="password"],
@@ -113,14 +103,10 @@ input[type="color"]:focus
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
 }
 
-/* input - image */
-
 input[type="image"]
 {
     width: auto;
 }
-
-/* input - submit */
 
 input[type="submit"]
 {
@@ -128,21 +114,15 @@ input[type="submit"]
     margin: 5px;
 }
 
-/* input - reset */
-
 input[type="reset"]
 {
     width: auto;
 }
 
-/* input - button */
-
 input[type="button"]
 {
     width: auto;
 }
-
-/* input - file select */
 
 input[type="file"]
 {
@@ -155,8 +135,6 @@ input[type="file"]:focus
     outline: thin dotted #333333;
     outline-offset: -2px;
 }
-
-/* input - radio and checkbox */
 
 input[type="radio"],
 input[type="checkbox"]
@@ -190,8 +168,6 @@ input[type="checkbox"]:focus
     margin-left: -20px;
 }
 
-/* select */
-
 select
 {
     font-size: 13px;
@@ -223,8 +199,6 @@ select:focus
     outline-offset: -2px;
 }
 
-/* textarea */
-
 textarea
 {
     display: inline-block;
@@ -252,7 +226,9 @@ textarea:focus
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
 }
 
-/* disabled controls */
+
+/* Disabled Controls
+   ========================================================================= */
 
 input[disabled],
 select[disabled],
@@ -274,7 +250,9 @@ input[type="checkbox"][readonly]
     background-color: transparent;
 }
 
-/* Block Level Input */
+
+/* Block-Level Input
+   ========================================================================= */
 
 input.input-block-level
 {
@@ -284,7 +262,9 @@ input.input-block-level
     width: 100%;
 }
 
-/* Relative Input Sizing */
+
+/* Relative Sizings Input
+   ========================================================================= */
 
 input.input-mini
 {
@@ -316,7 +296,9 @@ input.input-xxlarge
     width: 530px;
 }
 
-/* Inline Help */
+
+/* Inline Help
+   ========================================================================= */
 
 .help-inline
 {
@@ -328,7 +310,9 @@ input.input-xxlarge
     line-height: 32px;
 }
 
-/* Block Help */
+
+/* Block-Level Help
+   ========================================================================= */
 
 .help-block
 {
@@ -337,7 +321,9 @@ input.input-xxlarge
     margin-bottom: 10px;
 }
 
-/* Search Form */
+
+/* Search Form
+   ========================================================================= */
 
 .form-search input,
 .form-search textarea,
@@ -383,7 +369,9 @@ input.search-query
     border-radius: 15px;
 }
 
-/* Inline Form */
+
+/* Inline Form
+   ========================================================================= */
 
 .form-inline input,
 .form-inline textarea,
@@ -421,7 +409,9 @@ input.search-query
     margin-left: 0;
 }
 
-/* Horizontal Form */
+
+/* Horizontal Form
+   ========================================================================= */
 
 .form-horizontal input,
 .form-horizontal textarea,
@@ -487,7 +477,9 @@ input.search-query
     margin-top: 10px;
 }
 
-/* Inline Radio and Checkboxes */
+
+/* Inline Radio and Checkboxes
+   ========================================================================= */
 
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline

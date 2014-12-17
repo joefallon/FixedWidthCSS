@@ -1,6 +1,11 @@
-
-
-/* Pagination */
+/****************************************************************************
+ * pagination.css
+ *
+ * Requires:
+ *  normalize.css
+ *  typograhpy.css
+ *
+ ****************************************************************************/
 
 .pagination
 {
@@ -75,8 +80,8 @@
 }
 
 
-
-/* Pagination Alignment */
+/* Pagination Alignment
+   ========================================================================= */
 
 .pagination-centered
 {
@@ -90,7 +95,9 @@
     text-align: right;
 }
 
-/* Pagination - Large */
+
+/* Pagination - Large
+   ========================================================================= */
 
 .pagination-large ul > li > a,
 .pagination-large ul > li > span
@@ -113,7 +120,9 @@
     border-bottom-right-radius: 6px;
 }
 
-/* Pagination - Small */
+
+/* Pagination - Small
+   ========================================================================= */
 
 .pagination-small ul > li:first-child > a,
 .pagination-small ul > li:first-child > span
@@ -136,8 +145,9 @@
     font-size: 11.9px;
 }
 
-/* Pagination - Mini */
 
+/* Pagination - Mini
+   ========================================================================= */
 
 .pagination-mini ul > li:first-child > a,
 .pagination-mini ul > li:first-child > span

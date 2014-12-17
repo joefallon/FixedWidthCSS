@@ -1,13 +1,15 @@
-/****************************************************************************
+/*****************************************************************************
  * buttons.css
  *
  * Requires:
  *  normalize.css
  *  typography.css
  *
- ****************************************************************************/
+ *****************************************************************************/
 
-/* Common Button Styles */
+
+/* Common Button Styles
+   ========================================================================= */
 
 button
 {
@@ -64,7 +66,9 @@ fieldset[disabled] .btn
     opacity: .65;
 }
 
-/* default button */
+
+/* Default Button
+   ========================================================================= */
 
 .btn-default
 {
@@ -104,7 +108,9 @@ fieldset[disabled] .btn
     border-color: #cccccc;
 }
 
-/* primary button */
+
+/* Primary Button
+   ========================================================================= */
 
 .btn-primary
 {
@@ -144,7 +150,9 @@ fieldset[disabled] .btn
     border-color: #357ebd;
 }
 
-/* success button */
+
+/* Success Button
+   ========================================================================= */
 
 .btn-success
 {
@@ -184,7 +192,9 @@ fieldset[disabled] .btn
     border-color: #4cae4c;
 }
 
-/* info button */
+
+/* Info Button
+   ========================================================================= */
 
 .btn-info
 {
@@ -224,7 +234,9 @@ fieldset[disabled] .btn
     border-color: #46b8da;
 }
 
-/* Warning Button */
+
+/* Warning Button
+   ========================================================================= */
 
 .btn-warning
 {
@@ -264,7 +276,9 @@ fieldset[disabled] .btn
     border-color: #eea236;
 }
 
-/* Danger Button */
+
+/* Danger Button
+   ========================================================================= */
 
 .btn-danger
 {
@@ -304,7 +318,9 @@ fieldset[disabled] .btn
     border-color: #d43f3a;
 }
 
-/* Link Button */
+
+/* Link Button
+   ========================================================================= */
 
 .btn-link
 {
@@ -347,7 +363,9 @@ fieldset[disabled] .btn
     text-decoration: none;
 }
 
-/* Large Button */
+
+/* Large Button
+   ========================================================================= */
 
 .btn-lg
 {
@@ -359,7 +377,9 @@ fieldset[disabled] .btn
     border-radius: 6px;
 }
 
-/* Small Button */
+
+/* Small Button
+   ========================================================================= */
 
 .btn-sm
 {
@@ -371,7 +391,9 @@ fieldset[disabled] .btn
     border-radius: 3px;
 }
 
-/* Extra-Small Button */
+
+/* Extra-Small Button
+   ========================================================================= */
 
 .btn-xs
 {
@@ -383,7 +405,9 @@ fieldset[disabled] .btn
     border-radius: 3px;
 }
 
-/* Block Level Button */
+
+/* Block-Level Button
+   ========================================================================= */
 
 .btn-block
 {

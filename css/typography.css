@@ -6,7 +6,9 @@
  *
  ****************************************************************************/
 
-/* headings */
+
+/* Headings
+   ========================================================================= */
 
 h1,
 h2,
@@ -60,7 +62,9 @@ h6
     font-size: 11.9px;
 }
 
-/* small headings */
+
+/* Small Headings
+   ========================================================================= */
 
 h1 small,
 h2 small,
@@ -94,14 +98,18 @@ h4 small
     font-size: 14px;
 }
 
-/* body copy */
+
+/* Body Copy
+   ========================================================================= */
 
 p
 {
     margin: 0 0 10px;
 }
 
-/* lead body copy */
+
+/* Lead Body Copy
+   ========================================================================= */
 
 .lead
 {
@@ -111,28 +119,35 @@ p
     line-height: 30px;
 }
 
-/* fine print */
+
+/* Fine Print
+   ========================================================================= */
 
 small
 {
     font-size: 85%;
 }
 
-/* bold */
+
+/* Bold
+   ========================================================================= */
 
 strong
 {
     font-weight: bold;
 }
 
-/* italics */
 
+/* Italics
+   ========================================================================= */
 em
 {
     font-style: italic;
 }
 
-/* alignment */
+
+/* Text Alignment
+   ========================================================================= */
 
 .text-left
 {
@@ -149,7 +164,9 @@ em
     text-align: center;
 }
 
-/* colored emphasis (muted) */
+
+/* Colored Emphasis (Muted)
+   ========================================================================= */
 
 .muted
 {
@@ -162,7 +179,9 @@ a.muted:focus
     color: #808080;
 }
 
-/* colored emphasis (warning) */
+
+/* Colored Emphasis (Warning)
+   ========================================================================= */
 
 .text-warning
 {
@@ -175,7 +194,9 @@ a.text-warning:focus
     color: #a47e3c;
 }
 
-/* colored emphasis (error) */
+
+/* Colored Emphasis (Error)
+   ========================================================================= */
 
 .text-error
 {
@@ -188,7 +209,9 @@ a.text-error:focus
     color: #953b39;
 }
 
-/* colored emphasis (info) */
+
+/* Colored Emphasis (Info)
+   ========================================================================= */
 
 .text-info
 {
@@ -201,7 +224,9 @@ a.text-info:focus
     color: #2d6987;
 }
 
-/* colored emphasis (success) */
+
+/* Colored Emphasis (Success)
+   ========================================================================= */
 
 .text-success
 {
@@ -214,7 +239,9 @@ a.text-success:focus
     color: #356635;
 }
 
-/* abbreviations */
+
+/* Abbreviations
+   ========================================================================= */
 
 abbr[title],
 abbr[data-original-title]
@@ -229,7 +256,9 @@ abbr.initialism
     text-transform: uppercase;
 }
 
-/* addresses */
+
+/* Addresses
+   ========================================================================= */
 
 address
 {
@@ -239,7 +268,9 @@ address
     line-height: 20px;
 }
 
-/* blockquotes */
+
+/* Blockquotes
+   ========================================================================= */
 
 blockquote
 {
@@ -304,7 +335,9 @@ cite
     font-style: normal;
 }
 
-/* ordered and unordered lists */
+
+/* Ordered and Unordered Lists
+   ========================================================================= */
 
 ul,
 ol
@@ -326,7 +359,9 @@ li
     line-height: 20px;
 }
 
-/* unstyled lists */
+
+/* Unstyled Lists
+   ========================================================================= */
 
 ul.unstyled,
 ol.unstyled
@@ -335,7 +370,9 @@ ol.unstyled
     list-style: none;
 }
 
-/* inline lists */
+
+/* Inline Lists
+   ========================================================================= */
 
 ul.inline,
 ol.inline
@@ -352,7 +389,9 @@ ol.inline > li
     padding-left: 5px;
 }
 
-/* definition list */
+
+/* Definitions Lists
+   ========================================================================= */
 
 dl
 {
@@ -375,7 +414,9 @@ dd
     margin-left: 10px;
 }
 
-/* horizontal definition list */
+
+/* Horizontal Definition Lists
+   ========================================================================= */
 
 .dl-horizontal:before,
 .dl-horizontal:after
@@ -406,7 +447,9 @@ dd
     margin-left: 180px;
 }
 
-/* code */
+
+/* Code
+   ========================================================================= */
 
 code
 {
@@ -420,7 +463,9 @@ code
     border: 1px solid #e1e1e8;
 }
 
-/* preformatted block */
+
+/* Preformatted Block
+   ========================================================================= */
 
 pre
 {
@@ -448,7 +493,9 @@ pre code
     border: 0;
 }
 
-/* scrollable preformatted block */
+
+/* Scrollable Preformatted Block
+   ========================================================================= */
 
 .pre-scrollable
 {
@@ -457,7 +504,8 @@ pre code
 }
 
 
-/* horizontal rule */
+/* Horizontal Rule
+   ========================================================================= */
 
 hr
 {
@@ -466,23 +514,3 @@ hr
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
